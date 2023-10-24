@@ -1,0 +1,43 @@
+/* HEAEDR  */
+header {
+    background-color: var(--xx-color-primary);
+}
+
+/* /HEAEDR  */
+
+/* FIRST SECTION */
+.bg-green {
+    background-color: var(--xx-bg-primary);
+}
+/* /FIRST SECTION */
+
+/* SECOND SECTION */
+.portfolio {
+    color: var(--xx-color-primary);
+}
+
+/* /SECOND SECTION */
+
+/* FOURTH SECTION */
+.contact {
+    color: var(--xx-color-primary);
+}
+
+.contact button.btn.btn-primary {
+    background-color: var(--xx-bg-primary);
+}
+
+/* /FOURTH SECTION */
+
+/* FOOTER */
+footer {
+    background-color: var(--xx-color-secondary);
+}
+.bg-copy {
+    background-color: var(--xx-color-primary);
+}
+
+.xx-color-primary{
+    color: var(--xx-bg-primary);
+}
+/* /FOOTER */

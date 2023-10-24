@@ -1,0 +1,27 @@
+/* COMPONETS */
+.xx-line-star {
+    color: currentColor;
+    font-size: 1.875rem;
+}
+
+.xx-line-star::after,
+.xx-line-star::before {
+    content: '';
+    display: inline-block;
+    width: 13%;
+    border: 3px solid;
+    border-radius: 10px;
+    vertical-align: middle;
+    margin: 30px 10px;
+}
+
+
+.xx-icon-rounded {
+    border: 1px solid currentColor;
+    width: 60px;
+    padding: 15px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* /COMPONETS */
