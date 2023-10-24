@@ -8,7 +8,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!-- BOOTSTRAP -->
-
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- FONT AWESOME -->
     <!-- MY CSS -->
     <link rel="stylesheet" href="css/style.css">
     <!-- MY CSS -->
@@ -19,10 +23,23 @@
     <!-- HEADER -->
     <header>
         <div class="container">
-            <div class="d-flex justify-content-between py-3">
-                <div>start</div>
-                <div>panino</div>
-            </div>
+            <nav class="navbar navbar-expand-lg text-uppercase" data-bs-theme="dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">start bootstrap</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav ms-auto">
+                            <a class="nav-link text-white" aria-current="page" href="#">portfolio</a>
+                            <a class="nav-link text-white" href="#">Features</a>
+                            <a class="nav-link text-white" href="#">Pricing</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
         </div>
     </header>
     <!-- HEADER -->
@@ -30,55 +47,72 @@
         <!-- FIRST SECTION -->
         <section class="text-center py-5 start bg-green">
             <div class="container">
-                <div><img src="https://picsum.photos/200" alt=""></div>
-                <h2 class="fs-1 text-uppercase">Start Bootstrap</h2>
-                <hr>
-                <div>jobs</div>
+                <div class="row justify-content-center">
+                    <div class="col text-uppercase text-white">
+                        <div class="xx-content m-auto pb-3">
+                            <img class="img-fluid" src="img/avatar.svg" alt="">
+                        </div>
+                        <h2 class="fs-1">Start Bootstrap</h2>
+                        <div class=" xx-line-star"><i class="fa-solid fa-star"></i></div>
+                        <span>graphic artist - web designer- illustrator</span>
+                    </div>
+                </div>
+            </div>
             </div>
         </section>
         <!-- /FIRST SECTION -->
         <!-- SECOND SECTION -->
-        <section class="text-center portfoglio">
+        <section class="text-center portfolio">
             <div class="container">
-                <h2 class="text-uppercase">portfoglio</h2>
-                <hr>
+                <h2 class="text-uppercase text-black">portfolio</h2>
+                <div class=" xx-line-star"><i class="fa-solid fa-star"></i></div>
                 <div class="row row-gap-4">
-                    <div class="col-12 col-lg-6 col-xxl-4">immagine</div>
-                    <div class="col-12 col-lg-6 col-xxl-4">immagine</div>
-                    <div class="col-12 col-lg-6 col-xxl-4">immagine</div>
-                    <div class="col-12 col-lg-6 col-xxl-4">immagine</div>
-                    <div class="col-12 col-lg-6 col-xxl-4">immagine</div>
-                    <div class="col-12 col-lg-6 col-xxl-4">immagine</div>
+                    <div class="col-12 col-lg-6 col-xxl-4">
+                        <img class="img-fluid rounded" src="img/cabin.png" alt="Cabin">
+                    </div>
+                    <div class="col-12 col-lg-6 col-xxl-4">
+                        <img class="img-fluid rounded" src="img/cake.png" alt="Cake">
+                    </div>
+                    <div class="col-12 col-lg-6 col-xxl-4">
+                        <img class="img-fluid rounded" src="img/circus.png" alt="Circus">
+                    </div>
+                    <div class="col-12 col-lg-6 col-xxl-4">
+                        <img class="img-fluid rounded" src="img/game.png" alt="Game">
+                    </div>
+                    <div class="col-12 col-lg-6 col-xxl-4">
+                        <img class="img-fluid rounded" src="img/safe.png" alt="Safe">
+                    </div>
+                    <div class="col-12 col-lg-6 col-xxl-4">
+                        <img class="img-fluid rounded" src="img/submarine.png" alt="Submarine">
+                    </div>
                 </div>
             </div>
         </section>
         <!-- /SECOND SECTION -->
         <!-- THIRD SECTION -->
-        <section class="py-5 about bg-green">
+        <section class="py-5 about bg-green text-center text-white">
             <div class="container">
-                <h2 class="fs-1 text-uppercase text-center">ABOUT</h2>
-                <hr>
+                <h2 class="fs-1 text-uppercase">ABOUT</h2>
+                <div class=" xx-line-star"><i class="fa-solid fa-star"></i></div>
                 <!-- px-5??????? -->
-                <div class="row row-gap-4 px-5">
-                    <div class="col-12 col-lg-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, saepe
-                        rem!
-                        Necessitatibus rem maiores nisi sapiente, rerum, laudantium sit eveniet vitae temporibus
-                        repellat ea consequatur optio magni. Iste, esse iusto.</div>
-                    <div class="col-12 col-lg-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, saepe
-                        rem!
-                        Necessitatibus rem maiores nisi sapiente, rerum, laudantium sit eveniet vitae temporibus
-                        repellat ea consequatur optio magni. Iste, esse iusto.</div>
+                <div class="row row-gap-4 p-5 text-start">
+                    <div class="col-12 col-lg-6">Freelancer is a free bootstrap theme created by Start Bootstrap. The
+                        download includes the complete source files including HTML, CSS, and JavaScript as well as
+                        optional LESS stylesheets for easy customization.</div>
+                    <div class="col-12 col-lg-6">Whether you're a student looking to showcase your work, a professional
+                        looking to attract clients, or a graphic artist looking to share your projects, this template is
+                        the perfect starting point!</div>
                 </div>
-                <div class="text-center">bottone</div>
+                <button type="button" class="btn btn-outline-light my-4"><i class="fa-solid fa-download pe-1"></i>Download</button>
             </div>
         </section>
         <!-- /THIRD SECTION -->
         <!-- FOURTH SECTION -->
-        <section class="py-5 contact">
+        <section class="py-5 contact text-center">
             <div class="container">
-                <h2 class="text-uppercase text-center">contact me</h2>
-                <hr>
-                <div class="row row-cols-1 px-5">
+                <h2 class="text-uppercase text-black">contact me</h2>
+                <div class=" xx-line-star"><i class="fa-solid fa-star"></i></div>
+                <div class="row row-cols-1 px-5 text-start">
                     <div class="col border-bottom py-3">Name</div>
                     <div class="col border-bottom py-3">Email Address</div>
                     <div class="col border-bottom py-3">Phone Number</div>
@@ -89,7 +123,7 @@
         </section>
         <!-- /FOURTH SECTION -->
     </main>
-    <footer>
+    <footer class="text-white">
         <!-- SECTION INFO -->
         <section class="location text-center pb-5">
             <div class="container-xl row row-cols-1 row-cols-lg-3 px-5 mx-auto">
@@ -111,7 +145,7 @@
         <!-- /SECTION INFO -->
         <!-- SECTION COPYRIGHT -->
         <section class="bg-copy py-5">
-            <div class="text-center">Copyright</div>
+            <div class="text>Copyright</div>
         </section>
         <!-- /SECTION COPYRIGHT -->
     </footer>
