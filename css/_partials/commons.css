@@ -6,24 +6,24 @@ header {
 /* /HEAEDR  */
 
 /* FIRST SECTION */
-.bg-green {
+.xx-bg-green {
     background-color: var(--xx-bg-primary);
 }
 /* /FIRST SECTION */
 
 /* SECOND SECTION */
-.portfolio {
+.xx-portfolio {
     color: var(--xx-color-primary);
 }
 
 /* /SECOND SECTION */
 
 /* FOURTH SECTION */
-.contact {
+.xx-contact {
     color: var(--xx-color-primary);
 }
 
-.contact button.btn.btn-primary {
+.xx-contact button.btn.btn-primary {
     background-color: var(--xx-bg-primary);
 }
 
@@ -33,7 +33,7 @@ header {
 footer {
     background-color: var(--xx-color-secondary);
 }
-.bg-copy {
+.xx-bg-copy {
     background-color: var(--xx-color-primary);
 }
 

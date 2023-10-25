@@ -1,0 +1,10 @@
+
+.xx-icon-rounded {
+    display: inline-block;
+    border: 1px solid currentColor;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    line-height: 53px;
+    margin-right: 10px;
+}

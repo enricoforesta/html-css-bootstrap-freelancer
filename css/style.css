@@ -1,4 +1,5 @@
 @import url(/css/_partials/variable.css);
-@import url(/css/_partials/components.css);
+@import url(/css/_partials/component-line.css);
+@import url(/css/_partials/component-rounded.css);
 @import url(/css/_partials/commons.css);
 @import url(/css/_partials/commands.css);

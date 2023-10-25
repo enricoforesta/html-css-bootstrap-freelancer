@@ -1,0 +1,24 @@
+/* COMPONETS */
+
+/* E UN COMPONENTE CON DUE LINEE TRA UN ICONA, GIA CON SPAZI PER SPAZIARE IL COMPONENTE */
+
+.xx-line-i {
+    color: currentColor;
+    font-size: 1.875rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.xx-line-i::after,
+.xx-line-i::before {
+    content: '';
+    display: inline-block;
+    width: 13%;
+    max-width: 120px;
+    border: 3px solid;
+    border-radius: 10px;
+    margin: 30px 12px;
+}
+
+/* /COMPONETS */
