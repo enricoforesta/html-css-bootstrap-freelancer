@@ -23,7 +23,7 @@ header {
     color: var(--xx-color-primary);
 }
 
-.xx-contact button.btn.btn-primary {
+.xx-contact button.btn{
     background-color: var(--xx-bg-primary);
 }
 
